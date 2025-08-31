@@ -1,0 +1,16 @@
+# Environment
+.env
+
+# Byte-compiled
+__pycache__/
+*.pyc
+
+# Database
+*.db
+
+# Virtual env
+venv/
+chatVenv/
+
+# Node
+node_modules/
