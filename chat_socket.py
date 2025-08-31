@@ -3,9 +3,9 @@ import socketio
 # --- Socket.IO setup ---
 sio = socketio.AsyncServer(
     async_mode="asgi",
-    cors_allowed_origins=["https://chat-app-frontend-ecfx.onrender.com/"]
+    cors_allowed_origins=["https://chat-app-frontend-ecfx.onrender.com"],
+    allow_upgrades=True
 )
-
 
 
 user_socket_map = {}
