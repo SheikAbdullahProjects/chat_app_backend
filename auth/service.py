@@ -56,8 +56,8 @@ def generate_token(email : str, id : int, response : Response):
         key="access_token",
         value=token,
         httponly=True,
-        secure=False, 
-        samesite="lax", 
+        secure=True, 
+        samesite="None", 
         # path="/",
         max_age=3600,  
         # domain="localhost" 
