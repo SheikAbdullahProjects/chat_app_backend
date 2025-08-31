@@ -38,3 +38,5 @@ async def get_root():
 
 # --- Combine FastAPI app with Socket.IO ---
 socket_app = socketio.ASGIApp(sio, other_asgi_app=app)
+
+app = socket_app
